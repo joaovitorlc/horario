@@ -1,0 +1,42 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+#titulo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 22px;
+  color: red;
+}
+.demo{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 80px;
+  color: red;
+}
+.botao{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+button{
+  width: 190px;
+  height: 50px;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 22px;  
+  background-color: red;
+  color: white ;
+  cursor: pointer;
+}
+button:hover{
+  background-color: brown;
+}
+button:active {
+  transform: scale(1.05);
+  box-shadow: 5px 4px 26px 4px rgba(255, 189, 189, 0.24);
+}
